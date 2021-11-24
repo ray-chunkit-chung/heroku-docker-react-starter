@@ -11,7 +11,43 @@ class App extends Component {
           <h1 className="App-title">Hello world! x4</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          All work and no play makes jack a dull boy.
+        </p>
+        <p className="App-intro">
+          All work and no play makes jack a dull boy.
+        </p>
+        <p className="App-intro">
+          All work and no play makes jack a dull boy.
+        </p>
+        <p className="App-intro">
+          All work and no play makes jack a dull boy.
+        </p>
+        <p className="App-intro">
+          All work and no play makes jack a dull boy.
+        </p>
+        <p className="App-intro">
+          All work and no play makes jack a dull boy.
+        </p>
+        <p className="App-intro">
+          All work and no play makes jack a dull boy.
+        </p>
+        <p className="App-intro">
+          All work and no play makes jack a dull boy.
+        </p>
+        <p className="App-intro">
+          All work and no play makes jack a dull boy.
+        </p>
+        <p className="App-intro">
+          All work and no play makes jack a dull boy.
+        </p>
+        <p className="App-intro">
+          All work and no play makes jack a dull boy.
+        </p>
+        <p className="App-intro">
+          All work and no play makes jack a dull boy.
+        </p>
+        <p className="App-intro">
+          All work and no play makes jack a dull boy.
         </p>
       </div>
     );
