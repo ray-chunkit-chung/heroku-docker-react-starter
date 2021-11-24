@@ -6,13 +6,23 @@
     "node": "14.x"
   },
   "main": "index.js",
+  // "scripts": {
+  //   "start": "node index.js",
+  //   "test": "node test.js"
+  // },
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "ejs": "^3.1.5",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1"
   },
   "devDependencies": {
     "got": "^11.3.0",
