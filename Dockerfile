@@ -6,7 +6,9 @@
 # https://github.com/sanjaysaini2000/react-todo-app/blob/master/Dockerfile
 
 # build environment
-FROM node:13.12.0-alpine as build
+FROM alpine:latest as build
+RUN apk update
+RUN apk add --update nodejs npm
 RUN mkdir /app
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
