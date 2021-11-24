@@ -2,7 +2,7 @@
 # https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 # Example from here
-https://mherman.org/blog/dockerizing-a-react-app/
+# https://mherman.org/blog/dockerizing-a-react-app/
 
 # build environment
 FROM node:13.12.0-alpine as build
