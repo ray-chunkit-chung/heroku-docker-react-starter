@@ -8,8 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Hello world! x4</h1>
-          <h2 className="App-title">React Docker Heroku Starter</h2>
+          <h1 className="App-title">Hello world! x4 React Docker Heroku Starter</h1>
         </header>
         <p className="App-intro">
           All work and no play makes 0xjack a dull boy.
