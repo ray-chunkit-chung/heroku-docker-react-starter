@@ -8,46 +8,46 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Hello world!x4 Heroku </h1>
+          <h1 className="App-title">Hello world! x4 Heroku </h1>
         </header>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
         <p className="App-intro">
-          All work and no play makes jack a dull boy.
+          All work and no play makes 0xjack a dull boy.
         </p>
       </div>
     );
