@@ -13,3 +13,5 @@ https://devcenter.heroku.com/articles/pipelines
 
 Review apps
 https://devcenter.heroku.com/articles/github-integration-review-apps#changes
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
