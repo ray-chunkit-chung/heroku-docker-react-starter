@@ -1,16 +1,20 @@
 ﻿# heroku-docker-react-starter
 
-test git -> heroku -> auto-deploy
+App link
+ - https://sleepy-oasis-54564.herokuapp.com/
 
-https://devcenter.heroku.com/articles/container-registry-and-runtime
+Heroku docker deploy getting started
+ - https://devcenter.heroku.com/categories/deploying-with-docker
 
-https://github.com/react-cosmos/create-react-app-example
+Heroku CICD Test git -> heroku -> auto-deploy
+ - https://devcenter.heroku.com/articles/container-registry-and-runtime
 
+React cosmo
+ - https://github.com/react-cosmos/create-react-app-example
 
-# Heroku Pipeline
 Pipeline
-https://devcenter.heroku.com/articles/pipelines
+ - https://devcenter.heroku.com/articles/pipelines
 
 Review apps
-https://devcenter.heroku.com/articles/github-integration-review-apps#changes
+ - https://devcenter.heroku.com/articles/github-integration-review-apps#changes
 
