@@ -18,3 +18,6 @@ Pipeline
 Review apps
  - https://devcenter.heroku.com/articles/github-integration-review-apps#changes
 
+# Azure version
+ - [heroku-docker-react-starter](https://github.com/ray-chunkit-chung/heroku-docker-react-starter)
+ - [azure-docker-react-advanced](https://github.com/ray-chunkit-chung/azure-docker-react-advanced)
