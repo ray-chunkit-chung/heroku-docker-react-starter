@@ -4,13 +4,21 @@
 
 Use docker desktop dev env with vscode.
 
-
+```bash
 wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
 sudo apt-get install gnupg
 
 
-curl https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/dn.yarnpkg.com.gpg >/dev/null
-sudo sh -c "echo deb <https://dl.yarnpkg.com/debian> stable main \
+curl -LO https://fastdl.mongodb.org/osx/mongodb-macos-x86_64-6.0.3.tgz
+curl -LO https://fastdl.mongodb.org/osx/mongodb-macos-x86_64-6.0.3.tgz.sig
+curl -LO https://www.mongodb.org/static/pgp/server-6.0.asc
+gpg --import server-6.0.asc
+gpg --verify mongodb-macos-x86_64-6.0.3.tgz.sig mongodb-macos-x86_64-6.0.3.tgz
+
+
+
+curl https://www.mongodb.org/static/pgp/server-6.0.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/dn.mongodb.org.gpg >/dev/null
+sudo sh -c "echo deb <https://dl.mongodb.org/debian> stable main \
 > /etc/apt/sources.list.d/yarn.list"
 sudo apt-get update
 sudo apt-get install yarn
@@ -19,11 +27,14 @@ echo "deb http://repo.mongodb.org/apt/debian bullseye/mongodb-org/6.0 main" | su
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 
-
+service mongod start
 sudo systemctl start mongod
+```
 
-
-
+```bash
+npm i --save-dev babel-cli babel-preset-env babel-preset-stage-0
+npm i body-parser express mongoose nodemon
+```
 
 ## Step 2 Deploy to Heroku
 
